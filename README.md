@@ -1,2 +1,5 @@
 # pws
-Powershell Skripts
+Powershell Skripts for
+AD
+Exchange 16
+WSUS
