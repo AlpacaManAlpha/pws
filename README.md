@@ -1,5 +1,7 @@
 # pws
 Powershell Skripts for
-AD
-Exchange 16
-WSUS
+```
+Active Directory
+Exchange 2016
+Windows Server Update Service
+```
