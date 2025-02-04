@@ -1,5 +1,5 @@
 # pws
-Powershell Skripts for
+This repository contains Powershell Skripts for
 ```
 Active Directory
 Exchange 2016
