@@ -1,4 +1,6 @@
-﻿# Ensure script is running as Administrator
+# Check all Services set to Automatic and start them
+
+# Ensure script is running as Administrator
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
     Write-Output "This script must be run as an Administrator. Restarting with elevated privileges..."
     Start-Process powershell -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$PSCommandPath`"" -Verb RunAs
